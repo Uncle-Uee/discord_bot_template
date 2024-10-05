@@ -1,2 +1,2 @@
-# discord_bot_template
+# Discord Bot Template
 Python Discord Bot Template
