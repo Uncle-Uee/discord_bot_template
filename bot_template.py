@@ -71,7 +71,7 @@ async def multiply(interaction: discord.Interaction, a: int, b: int):
 async def divide(interaction: discord.Interaction, a: int, b: int):
     """Divides two numbers together."""
     if b == 0:
-        await interaction.response.send_message("You a dom naai, you can't divide by zero!")
+        await interaction.response.send_message("You can't divide by zero!")
     else:
         await interaction.response.send_message(f'{a} / {b} = {a / b}')
 
